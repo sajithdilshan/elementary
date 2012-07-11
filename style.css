@@ -46,6 +46,10 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight:normal;
 }
 p{
+	font-family: 'Droid Sans', sans-serif;
+	color: #555;
+	line-height: 19px;
+	font-size: 13px;
 	text-align: justify; 
     text-justify: newspaper
 }
@@ -149,6 +153,12 @@ aside{
 	font-weight: normal;
 	margin: 0 0 1em;
 }
+#headersearch{
+	position:absolute;
+	float: right;
+	margin: 10px 0 20px 730px;
+	top: 0;
+}
 
 
 /* =Menu
@@ -243,8 +253,7 @@ aside{
 .entry-content p{
 	font-family: 'Droid Sans', sans-serif;
 	color: #555;
-	font-weight: 300;
-		line-height: 19px;
+	line-height: 19px;
 	font-size: 13px;
 }
 .entry-content img{
@@ -563,7 +572,7 @@ div.comment-author.vcard img{
 #s{
 	background: url(images/search-white.png) no-repeat 10px 6px #fcfcfc;
     border: 1px solid #d1d1d1;
-    font: bold 12px Arial,Helvetica,Sans-serif;
+    font: 12px Lucida Grande,Arial,Helvetica,Sans-serif;
     color: #bebebe;
     width: 130px;
     padding: 6px 15px 6px 35px;
