@@ -81,6 +81,7 @@ a,a:hover,a:visited{
 	margin: 0 270px 0 0;
 }
 #main .widget-area {
+	padding-top: 3px;
 	float: right;
 	overflow: hidden;
 	width: 240px;
