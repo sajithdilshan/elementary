@@ -66,6 +66,7 @@ a,a:hover,a:visited{
 	display: block;
 	margin: 10px auto 0 auto;
 	width: 960px;
+	padding: 0 10px;
 }
 #primary {
 	float: left;
@@ -136,7 +137,7 @@ aside{
 	font-family: 'Raleway', cursive;
 	text-shadow:0 1px 0 #FDFDFD;
 	color: #555;
-	font-size: 1.75em;
+	font-size: 32px;
 	font-weight: bold;
 	margin: .01em 0;
 }
@@ -314,7 +315,7 @@ div#content{
 }
 h1.entry-title, h1.entry-title a{
 	color: #4D4D4D;
-	font-size: 32px;
+	font-size: 30px;
 	padding : 0 0 5px;
 	line-height: 32px;
 }
