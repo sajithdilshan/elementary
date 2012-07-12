@@ -9,10 +9,10 @@ About Elementary
 
 A wordpress theme inspired by the elementary os. Clean, minimal theme designed for blogs.
 
-I hope you would enjoy MetroUI Theme and let me know what do you think about it.
+I hope you would enjoy Elementary Theme and let me know what do you think about it.
 Email : sajithdilshan@gmail.com
 
-Demo of the Taprobana Theme : http://workdemo.x10.mx/elementary
+Demo of the Elementary Theme : http://workdemo.x10.mx/elementary
 ================================================================================
 
 
