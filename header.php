@@ -69,7 +69,7 @@
 			<div id="headersearch">
 				<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
 					<div>
-						<input type="text" size="put_a_size_here" name="s" id="s" value="Type to Search" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+						<input type="text" size="put_a_size_here" name="s" id="s" value="Type and hit enter" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
 						<input type="submit" id="searchsubmit" value="Search" class="btn" />
 					</div>
 				</form>

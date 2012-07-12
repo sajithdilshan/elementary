@@ -268,13 +268,46 @@ aside{
 	clear: both;
 	display: block;
 	margin-bottom: 10px;
-
 }
 footer.entry-meta{
-	padding: 10px 0;
+	padding: 15px 0 20px 0;
 	font-size: 12px;
-	font-style: bold;
-	border-bottom: 1px #CCC solid;
+	line-height: 25px;
+	border-bottom: 1px #eee solid;
+}
+
+footer.entry-meta a{
+    border-color: #dedede #d8d8d8 #d3d3d3;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+    -moz-box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+    box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+	background: linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    display: inline-block;
+    text-decoration: none;
+	font-size: 10px;
+    padding: 3px 8px;
+	line-height: 12px;
+    color: #555;
+    text-transform:uppercase;
+    border: 1px solid #dedede;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius:3px 3px 3px 3px;
+    cursor:pointer;
+}
+footer.entry-meta a:hover{
+	background: #ededed;
+}
+.comments-link a{
+	margin-top: 5px;
+    float: right;
 }
 .entry-content h1{
 	font-size: 28px;
@@ -559,6 +592,9 @@ div.comment-content{
 	color: #fff;
     font-size: 13px;
     line-height: 19px;
+}
+div.comment-content p{
+	color: #fff;
 }
 div.reply{
 	text-align: right;

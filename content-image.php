@@ -22,9 +22,9 @@
 	<footer class="entry-meta">
 		<?php elementary_posted_on(); ?>
 		<?php if ( comments_open() || ( '0' != get_comments_number() && ! comments_open() ) ) : ?>
-		<span class="sep"> | </span>
+		<span class="sep"> </br> </span>
 		<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'elementary' ), __( '1 Comment', 'elementary' ), __( '% Comments', 'elementary' ) ); ?></span>
 		<?php endif; ?>
-		<?php edit_post_link( __( 'Edit', 'elementary' ), '<span class="sep"> | </span><span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( __( 'Edit', 'elementary' ), '<span class="sep"> </br> </span><span class="edit-link">', '</span>' ); ?>
 	</footer><!-- #entry-meta -->
 </article><!-- #post-<?php the_ID(); ?> -->
